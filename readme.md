@@ -40,6 +40,15 @@ To enable remote access to Jerry Challenge you can do the following :
 netcat -klnvp 4444 -e "$(pwd)/src/game.py"
 ```
 
+## Network setup with docker
+
+You can also setup Jerry Challenge with docker :
+
+```bash
+docker build . -t jerrychallenge
+docker run -d --restart always -p output_port:5000 --name jerrychallenge jerrychallenge:latest
+```
+
 
 ## How to play
 
