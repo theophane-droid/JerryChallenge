@@ -1,0 +1,13 @@
+######### WELCOME IN #######
+###### JERRY CHALLENGE #####
+      ()()         ____
+      (..)        /|o  |
+      /\/\       /o|  o|
+     c\db/o...  /o_|_o_|
+source : aHR0cHM6Ly9naXRodWIuY29tL3RoZW9waGFuZS1kcm9pZC9KZXJyeUNoYWxsZW5nZQo=
+
+> I, I'm Jerry (£), I'm the one who's gonna challenge you.
+> I would like to reach my cheese (^), but there is a scary labyrinthe to cross...
+> Please give me the instructions (left, right, up or down) to reach my cheese.
+
+ 
