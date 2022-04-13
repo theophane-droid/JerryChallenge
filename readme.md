@@ -32,6 +32,15 @@ Let's go !
 python3 src/games.py
 ```
 
+## Network setup
+
+To enable remote access to Jerry Challenge you can do the following :
+
+```bash
+netcat -klnvp 4444 -e "$(pwd)/src/game.py"
+```
+
+
 ## How to play
 
 Your are Jerry (£) and you have to get the cheese (^) in 5 seconds.

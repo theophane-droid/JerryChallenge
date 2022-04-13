@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import time
 
 from labyrinthe import Labyrinthe, UP, DOWN, LEFT, RIGHT
@@ -17,7 +18,7 @@ def print_banner():
     i = 0
     for line in BANNER:
         if i < 7:
-            print(line)
+            print(line, flush=True)
         else:
             for c in line:
                 print(c, end='', flush=True)
@@ -31,7 +32,7 @@ if __name__ == "__main__":
     win = False
     start_time = time.time()
     while True:
-        print(lab)
+        print(lab, flush=True)
         dir = input('$ ')
         if dir in [UP, DOWN, LEFT, RIGHT]:
             try:
@@ -40,30 +41,30 @@ if __name__ == "__main__":
                 win = True
                 break
             except InvalidMoveException:
-                print('> Squik ! I can\'t go there !')
+                print('> Squik ! I can\'t go there !', flush=True)
                 time.sleep(1)
         elif dir == 'please give me a flag':
-            print('> Sure :', FLAG2)
+            print('> Sure :', FLAG2, flush=True)
             time.sleep(1)
         else:
-            print('> Squik ! is not valid direction !')
+            print('> Squik ! is not valid direction !', flush=True)
             time.sleep(1)
     if win:
         if time.time() - start_time > 5:
-            print('> Thank you for helping me reach my cheese')
+            print('> Thank you for helping me reach my cheese', flush=True)
             time.sleep(1)
-            print('> But you waited too long, it stinks now!')
+            print('> But you waited too long, it stinks now!', flush=True)
             time.sleep(1)
-            print('> Huuummm, I will still give you a flag')
+            print('> Huuummm, I will still give you a flag', flush=True)
             time.sleep(1)
-            print('> Here it is :', FLAG3)
+            print('> Here it is :', FLAG3, flush=True)
             time.sleep(1)
-            print('> You should try to be faster ! Try, to write a little program to help me !')
+            print('> You should try to be faster ! Try, to write a little program to help me !', flush=True)
             time.sleep(1)
-            print('> You have only 5 secs to do it !')
+            print('> You have only 5 secs to do it !', flush=True)
             exit()
         else:
-            print('> Well done !!')
-            print('> See you in the mouse challenge ;)')
+            print('> Well done !!', flush=True)
+            print('> See you in the mouse challenge ;)', flush=True)
             time.sleep(1)
-            print('> Btw, you deserved this flag : ', FLAG4)
+            print('> Btw, you deserved this flag : ', FLAG4, flush=True)
