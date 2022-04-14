@@ -3,7 +3,7 @@ from random import randint
 from exceptions import WinException, InvalidMoveException
 
 WALL = '#'
-JERRY = '£'
+JERRY = 'O'
 CHEESE = '^'
 SPACE = ' '
 

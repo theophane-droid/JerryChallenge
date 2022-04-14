@@ -52,7 +52,7 @@ docker run -d --restart always -p output_port:5000 --name jerrychallenge jerrych
 
 ## How to play
 
-Your are Jerry (£) and you have to get the cheese (^) in 5 seconds.
+Your are Jerry (O) and you have to get the cheese (^) in 5 seconds.
 
 You can move Jerry with the instructions left, right, up, or down.
 
