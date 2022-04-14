@@ -50,7 +50,7 @@ if __name__ == "__main__":
             print('> Squik ! is not valid direction !', flush=True)
             time.sleep(1)
     if win:
-        if time.time() - start_time > 5:
+        if time.time() - start_time > 50:
             print('> Thank you for helping me reach my cheese', flush=True)
             time.sleep(1)
             print('> But you waited too long, it stinks now!', flush=True)
@@ -65,6 +65,13 @@ if __name__ == "__main__":
             exit()
         else:
             print('> Well done !!', flush=True)
+            time.sleep(1)
+            print('> Thank you for helping me reach my cheese', flush=True)
+            time.sleep(1)
             print('> See you in the mouse challenge ;)', flush=True)
             time.sleep(1)
             print('> Btw, you deserved this flag : ', FLAG4, flush=True)
+            time.sleep(1)
+            print('############# THE ###############', flush=True)
+            time.sleep(1)
+            print('############# END ###############', flush=True)
